@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:url(../img/background.jpg);
+    color: white;
+}
+
+.title {
+    padding: 20px 0;
+    font-family: "Tiny5", sans-serif;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-shadow: 3px 2px black;
+    border-bottom: 2px solid white;
+}
+
+main {
+    background-color:rgba(0, 0, 0 , 0.65);
+    margin: 0px 8vw;
+    padding: 50px 50px 30px 50px;
+}
+
+/* table */
+
+table{
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+table, th , td{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+#topic{
+    font-family: "Bree Serif", serif;
+    font-size: 25px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    background-image: linear-gradient(to bottom, #a00050, #84004f , #500030 , #3b0024, #360020);
+}
+
+th , td {
+    padding: 20px;
+}
+
+.code {
+    font-family: monospace;
+}
+
+footer {
+    font-family: "Poppins" , sans-serif;
+    background-color: rgba(0, 0, 0 , 0.7);
+    text-align: center;
+   padding: 30px 0 50px 0;
+   margin-bottom: 0;
+}
